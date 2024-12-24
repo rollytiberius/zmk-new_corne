@@ -1,5 +1,5 @@
 layers:
-  BASE:
+  QUERTY:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: SETT}
+  - {t: '$$mdi:keyboard-return$$', h: SETTINGS}
   - $$mdi:arrow-right-bold$$
   - H
   - J
@@ -33,7 +33,7 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: FN}
+  - {t: B, h: MOUSE}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - N
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  FN:
+  MOUSE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PRINTSCREEN
   - SCROLLLOCK
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SETT:
+  SETTINGS:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
