@@ -64,7 +64,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "BASE";
+            display-name = "QUERTY";
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E                &kp R      &kp T                             &kp UP                  &kp Y                  &kp U      &kp I                     &kp O    &kp P     &kp BSPC
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D                &kp F      &kp G                   &kp LEFT  &lt 4 ENTER  &kp RIGHT  &kp H                  &kp J      &kp K                     &kp L    &kp SEMI  &kp SQT
@@ -100,7 +100,7 @@
         };
 
         layer_3 {
-            display-name = "FN";
+            display-name = "MOUSE";
             bindings = <
 &studio_unlock  &none       &none      &none        &none      &none                                 &mmv MOVE_UP                     &kp F6          &kp F7          &kp F8        &kp F9           &kp F10          &kp F11
 &trans          &bl BL_TOG  &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &kp PRINTSCREEN  &kp F12
@@ -112,7 +112,7 @@
         };
 
         Setting {
-            display-name = "SETT";
+            display-name = "SETTINGS";
             bindings = <
 &none            &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                     &none         &rgb_ug RGB_COLOR_HSB(62,56,62)  &rgb_ug RGB_COLOR_HSB(305,97,48)  &none  &none  &none  &bt BT_CLR
 &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI           &none  &none  &none  &rgb_ug RGB_COLOR_HSB(0,93,49)   &rgb_ug RGB_COLOR_HSB(112,90,48)  &none  &none  &none  &none
